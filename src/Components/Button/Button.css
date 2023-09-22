@@ -1,0 +1,16 @@
+.button {
+    color: black;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color rgb(255, 255, 255); 
+    border: solid black 5px;
+    margin-top: 100px;
+}
+
+.button.clicked {
+    background-color: rgb(5, 110, 5); 
+    color: white;
+}
+

@@ -1,0 +1,64 @@
+
+.Wholething {
+  display: flex; 
+  justify-content: center;
+  background-color: rgb(83, 13, 13);
+  padding: 30px;
+
+}
+
+.BackDisplay {
+  border: solid black 5px;
+  background-color: rgb(10, 69, 97);
+  color: white;
+  display: flex;
+  border-radius: 20px;
+}
+
+.leftCardSide {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(5, 54, 49);
+  border-radius: 10px 0px 0px 10px;
+  border-right: solid black 5px;
+}
+
+.rightCardSide {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color:rgb(13, 48, 9);
+  border-radius: 0px 10px 10px 0px;
+  padding: 5px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.resetButton {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: solid black 5px;
+  align-content: stretch;
+  justify-content: center;
+  background-color: rgb(55, 71, 71);
+} 
+
+.tipinTotal {
+  font-size: 2rem;
+  display: flex;
+  background-color:rgb(29, 54, 25);
+
+}
